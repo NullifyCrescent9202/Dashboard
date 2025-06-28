@@ -1,0 +1,52 @@
+*{
+    font-family: monospace;
+    background-color: #161619;
+    color: #d7d7d7;
+}
+
+.main-con{
+    display: grid;
+}
+
+
+h2{
+    font-size: 1.5rem;
+}
+
+.logo{
+    height: 50px;
+    object-fit: contain;
+    width: 50px;
+    display: inline-block;
+
+}
+img{
+    border-radius: 5px;
+    height: 80%;
+    width: 95%;
+    margin: 10px;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+li{
+    width: 10px;
+    list-style: none;
+    border-bottom: 1px solid rgba(56, 56, 56, 0.84);
+    margin: 10px;
+}
+
+li:hover{
+    width: 50px;
+    transition: 1.4s;
+}
+
+.card-node{
+    border: 1px solid rgba(255, 255, 255, 0.194);
+    border-radius: 8px;
+    height: 250px;
+    width: 350px;
+    margin: 100px;
+}
